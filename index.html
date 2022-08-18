@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Welcom to KokoaTalk</title>
+    <style></style>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div class="status-bar">
+      <div class="status-bar__column">
+        <span>No Service</span>
+        <i class="fa-solid fa-wifi"></i>
+      </div>
+      <div class="status-bar__column">
+        <span>18:43</span>
+      </div>
+      <div class="status-bar__column">
+        <span>100%</span>
+        <i class="fa-solid fa-battery-full"></i>
+        <i class="fa-solid fa-bolt-lightning fa-3px"></i>
+      </div>
+    </div>
+    <header class="welcome-header">
+      <h1 class="welcome-header__title">Welcome to Kokoa Clone</h1>
+      <p class="welcome-header__text">
+        If you have a Account, log in with your email or phone number.
+      </p>
+    </header>
+
+    <form class="login-form" action="friends.html" method="get">
+      <div class="login-form__div">
+        <label for="login-form__email" class="login-form__label"
+          >Email or Phone number</label
+        >
+        <input
+          name="username"
+          id="login-form__email"
+          type="text"
+          class="login-form__input"
+        />
+      </div>
+      <div class="login-form__div">
+        <label for="login-form__password" class="login-form__label"
+          >Password</label
+        >
+        <input
+          name="password"
+          id="login-form__password"
+          type="password"
+          class="login-form__input"
+        />
+      </div>
+      <button class="login-form__login">Log in</button>
+      <button class="login-form__signin">Sign up</button>
+      <a class="login-form__restore" href="#">Find Kokoa Account or Password</a>
+    </form>
+
+    <script
+      src="https://kit.fontawesome.com/7c6cbf1324.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

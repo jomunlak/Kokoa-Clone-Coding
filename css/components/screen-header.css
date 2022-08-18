@@ -1,0 +1,8 @@
+.screen-header {
+  background-color: aqua;
+  display: flex;
+  justify-content: space-between;
+
+  position: absolute;
+  top: 50px;
+}

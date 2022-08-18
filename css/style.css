@@ -1,0 +1,19 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap");
+@import "./reset.css";
+@import "./variable.css";
+
+/* Components */
+@import "./components/status.css";
+@import "./components/navigation.css";
+@import "./components/screen-header.css";
+
+/* Screens */
+@import "./screeens/login.css";
+
+body {
+  font-family: "Open Sans", sans-serif;
+  position: relative;
+
+  width: 100%;
+  height: 100vh;
+}
