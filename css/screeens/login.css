@@ -34,7 +34,7 @@
   transition: border-color 0.3s ease-in-out;
 }
 .login-form__input:focus {
-  border-color: #fae100;
+  border-color: var(--yellow);
 }
 .login-form__input::placeholder {
   color: rgba(0, 0, 0, 0.4);
@@ -53,7 +53,7 @@
 }
 .login-form__login {
   margin-bottom: 10px;
-  background-color: #fae100;
+  background-color: var(--yellow);
 }
 .login-form__signin {
   margin-bottom: 20px;

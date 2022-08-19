@@ -25,21 +25,8 @@
 }
 
 .nav-bar__chat__notification {
-  width: 25px;
-  height: 25px;
-  background-color: tomato;
-  border-radius: 50%;
-  text-align: center;
-
-  display: flex;
-  justify-content: center;
-  align-items: center;
-
   position: absolute;
   transform: translate(17px, -12px);
-
-  font-weight: 600;
-  color: white;
 }
 
 .nav-bar__etc__notification {
