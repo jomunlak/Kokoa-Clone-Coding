@@ -18,7 +18,7 @@
 @import "./screeens/find.css";
 @import "./screeens/more.css";
 @import "./screeens/settings.css";
-
+@import "./screeens/chat.css";
 body {
   font-family: "Open Sans", sans-serif;
   position: relative;
