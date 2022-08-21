@@ -1,5 +1,8 @@
+.spacer {
+  height: 145px;
+}
+
 .welcome-header {
-  margin: 145px 0px;
   text-align: center;
   display: flex;
   flex-direction: column;
