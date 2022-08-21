@@ -79,6 +79,7 @@
   width: 120px;
   height: 120px;
   border-radius: 17px;
+  transition: 1s ease-in-out;
 }
 
 .open-post__heart {
@@ -93,6 +94,8 @@
 
   font-size: 13px;
   font-weight: 600px;
+
+  transition: 1s ease-in-out;
 }
 
 @keyframes heart-beat {
@@ -110,7 +113,17 @@
   }
 }
 
-.open-post__heart:hover i {
+.open-post__column:last-child:hover i {
   will-change: transform;
   animation: heart-beat 1s ease-in-out infinite;
+}
+.open-post__column:last-child:hover .open-post__heart {
+  transform: scale(1.4, 1.4);
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.open-post__column:last-child:hover img {
+  opacity: 0.5;
+  transform: scale(0.8, 0.8);
+  background-color: black;
 }

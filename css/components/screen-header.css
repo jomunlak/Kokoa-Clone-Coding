@@ -44,13 +44,13 @@
 }
 @keyframes rotate-magnifying-glass {
   0% {
-    transform: none;
+    transform: scaleX(1.3) scaleY(1.3);
   }
   50% {
-    transform: scaleY(1.2) rotateZ(-45deg);
+    transform: scaleX(1.3) scaleY(1.5) rotateZ(-45deg);
   }
   100% {
-    transform: none;
+    transform: scaleX(1.3) scaleY(1.3);
   }
 }
 
@@ -74,9 +74,13 @@
 }
 
 .screen-header .fa-magnifying-glass:hover {
+  animation-delay: 1s;
   animation: rotate-magnifying-glass 1s ease-in-out infinite;
 }
 
 .screen-header .fa-comment-dots:hover {
   animation: rotate-chat 1s ease-in-out infinite;
+}
+.screen-header__header-icons span i {
+  transition: 0.3s ease-in-out;
 }

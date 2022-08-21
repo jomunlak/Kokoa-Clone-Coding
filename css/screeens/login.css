@@ -3,6 +3,7 @@
 }
 
 .welcome-header {
+  margin-bottom: 150px;
   text-align: center;
   display: flex;
   flex-direction: column;
