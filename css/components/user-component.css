@@ -50,7 +50,7 @@
   padding: 10px;
   border-radius: 20px;
   transform: scale(1.05, 1.05);
-  animation: user-component-animation 2s ease-in-out infinite;
+  animation: user-component-animation 2s linear infinite;
 }
 .user-component__column:first-child {
   display: flex;
