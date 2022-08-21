@@ -5,7 +5,7 @@
 
   margin-bottom: 10px;
 
-  transition: all 1s ease-in-out;
+  transition: all 0.4s ease-in-out;
 }
 
 @keyframes user-component-animation {
@@ -14,31 +14,31 @@
     color: black;
   }
   13% {
-    background-color: rgba(255, 0, 0, 0.5);
+    background-color: rgba(255, 0, 0, 0.6);
     color: rgba(255, 255, 0, 0.8);
   }
   26% {
-    background-color: rgba(255, 50, 0, 0.5);
+    background-color: rgba(255, 50, 0, 0.6);
     color: rgba(0, 255, 0, 0.8);
   }
   39% {
-    background-color: rgba(255, 255, 0, 0.5);
+    background-color: rgba(255, 255, 0, 0.6);
     color: rgba(0, 0, 255, 0.8);
   }
   52% {
-    background-color: rgba(0, 255, 0, 0.5);
+    background-color: rgba(0, 255, 0, 0.6);
     color: rgba(0, 5, 70, 0.8);
   }
   65% {
-    background-color: rgba(0, 0, 255, 0.5);
+    background-color: rgba(0, 0, 255, 0.6);
     color: rgba(100, 0, 255, 0.8);
   }
   78% {
-    background-color: rgba(0, 5, 70, 0.5);
+    background-color: rgba(0, 5, 70, 0.6);
     color: rgba(255, 50, 0, 0.8);
   }
   91% {
-    background-color: rgba(100, 0, 255, 0.5);
+    background-color: rgba(100, 0, 255, 0.6);
     color: rgba(255, 50, 0, 0.8);
   }
   100% {
@@ -50,7 +50,7 @@
   padding: 10px;
   border-radius: 20px;
   transform: scale(1.05, 1.05);
-  animation: user-component-animation 3s ease-in-out infinite;
+  animation: user-component-animation 2s ease-in-out infinite;
 }
 .user-component__column:first-child {
   display: flex;
