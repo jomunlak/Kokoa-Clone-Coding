@@ -1,0 +1,17 @@
+#splash-screen {
+  background-color: var(--yellow);
+
+  position: absolute;
+  width: 100vw;
+  height: 110vh;
+
+  top: -30px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  font-size: 120px;
+  animation: hideSplashScreen 0.5s ease-out forwards;
+  animation-delay: 1.5s;
+}
