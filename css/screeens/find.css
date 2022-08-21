@@ -94,3 +94,23 @@
   font-size: 13px;
   font-weight: 600px;
 }
+
+@keyframes heart-beat {
+  0% {
+    transform: none;
+    background-color: white;
+  }
+  50% {
+    transform: scale(1.5, 1.5);
+    color: tomato;
+  }
+  100% {
+    transform: none;
+    background-color: white;
+  }
+}
+
+.open-post__heart:hover i {
+  will-change: transform;
+  animation: heart-beat 1s ease-in-out infinite;
+}
