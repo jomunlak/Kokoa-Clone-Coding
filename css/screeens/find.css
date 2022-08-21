@@ -24,7 +24,8 @@
   transition: all 1s ease-in-out;
 }
 .recommended-friends:hover {
-  background-color: var(--yellow);
+  background-color: rgba(250, 225, 0, 0.8);
+  padding: 20px 20px;
 }
 .recommended-friends:hover > .recommended-friends__content {
   font-weight: 600;
