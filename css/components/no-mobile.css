@@ -16,7 +16,7 @@
   font-weight: 600;
 }
 
-@media screen and (max-width: 1000px) and (orientation: landscape) {
+@media screen and (max-width: 1000px) and (orientation: portrait) {
   #no-mobile {
     display: none;
   }
