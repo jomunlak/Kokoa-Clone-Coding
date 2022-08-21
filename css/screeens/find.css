@@ -7,6 +7,13 @@
   border-radius: 10px;
 
   transition: all 1s ease-in-out;
+
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 }
 
 .recommended-friends__title {
@@ -15,7 +22,7 @@
 }
 
 .recommended-friends__content {
-  margin: 150px 0px;
+  margin: 120px 0px;
   text-align: center;
 
   font-size: 20px;
@@ -25,11 +32,8 @@
 }
 .recommended-friends:hover {
   background-color: rgba(250, 225, 0, 0.8);
-  padding: 20px 20px;
 }
 .recommended-friends:hover > .recommended-friends__content {
-  font-weight: 600;
-  font-size: 30px;
   color: black;
 }
 
@@ -52,6 +56,13 @@
   border-radius: 10px;
 
   transition: all 0.5s ease-in-out;
+
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 }
 .open-post:hover {
   background-color: rgba(0, 0, 0, 0.1);
@@ -100,7 +111,7 @@
   width: 120px;
   height: 120px;
   border-radius: 17px;
-  transition: all 1s ease-in-out;
+  transition: all 0.3s ease-in-out;
 }
 
 .open-post__heart {
@@ -116,7 +127,7 @@
   font-size: 13px;
   font-weight: 600px;
 
-  transition: 1s ease-in-out;
+  transition: 0.5s ease-in-out;
 }
 
 @keyframes heart-beat {

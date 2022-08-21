@@ -30,7 +30,9 @@ body {
   width: 100%;
   height: fit-content;
 }
-
+body.find-screen {
+  height: 120vh;
+}
 .main-screen {
   padding: 10px var(--horizontal-space);
 }

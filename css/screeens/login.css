@@ -1,7 +1,9 @@
 .spacer {
   height: 145px;
 }
-
+.nav-spacer {
+  height: 80px;
+}
 .welcome-header {
   margin-bottom: 150px;
   text-align: center;
