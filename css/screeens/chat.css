@@ -172,6 +172,8 @@
   align-items: center;
   justify-content: space-between;
   width: 90%;
+  height: 50px;
+  box-sizing: border-box;
 
   padding: 0px 10px;
   margin: 10px 15px;
@@ -214,17 +216,21 @@
 }
 .reply-form .reply-form__column:first-child,
 .reply-form .reply-form__column__button {
-  transition: 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
 }
 .reply-form:focus-within .reply-form__column:first-child,
 .reply-form:focus-within .reply-form__column__button {
   opacity: 0;
   visibility: hidden;
+  margin: none;
 }
-
+.reply-form:focus-within .reply-form__column:first-child {
+  width: 0px;
+}
 .reply-form:focus-within .reply-form__column:last-child {
-  width: 100vw;
-  transform: translateX(-5%) translateY(-300px);
+  width: 95vw;
+  transform: translateY(-320px) translateX(-5px);
+  height: 60px;
 }
 
 .reply-form:focus-within {
