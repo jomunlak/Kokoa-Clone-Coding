@@ -21,10 +21,12 @@
 @import "./screeens/more.css";
 @import "./screeens/settings.css";
 @import "./screeens/chat.css";
+
 body {
   font-family: "Open Sans", sans-serif;
   position: relative;
 
+  background-color: white;
   color: #2e363e;
 
   width: 100%;
