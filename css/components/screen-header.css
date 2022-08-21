@@ -21,3 +21,62 @@
   font-size: 18px;
   font-weight: 300;
 }
+
+@keyframes rotate-gear {
+  from {
+    transform: none;
+  }
+  to {
+    transform: rotateZ(360deg);
+  }
+}
+
+@keyframes rotate-music {
+  0% {
+    transform: none;
+  }
+  50% {
+    transform: scaleY(1.2) rotateZ(45deg);
+  }
+  100% {
+    transform: none;
+  }
+}
+@keyframes rotate-magnifying-glass {
+  0% {
+    transform: none;
+  }
+  50% {
+    transform: scaleY(1.2) rotateZ(-45deg);
+  }
+  100% {
+    transform: none;
+  }
+}
+
+@keyframes rotate-chat {
+  0% {
+    transform: none;
+  }
+  50% {
+    transform: scaleY(1.5) scaleX(0.7);
+  }
+  100% {
+    transform: none;
+  }
+}
+.screen-header .fa-gear:hover {
+  animation: rotate-gear 1s ease-in-out infinite;
+}
+
+.screen-header .fa-music:hover {
+  animation: rotate-music 1s ease-in-out infinite;
+}
+
+.screen-header .fa-magnifying-glass:hover {
+  animation: rotate-magnifying-glass 1s ease-in-out infinite;
+}
+
+.screen-header .fa-comment-dots:hover {
+  animation: rotate-chat 1s ease-in-out infinite;
+}

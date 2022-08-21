@@ -16,3 +16,10 @@
 .new {
   font-size: 15px;
 }
+
+.small-badge {
+  width: 5px;
+  height: 5px;
+  background-color: tomato;
+  border-radius: 50%;
+}

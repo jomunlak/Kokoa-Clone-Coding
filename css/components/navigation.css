@@ -1,3 +1,12 @@
+@keyframes nav-bar__btn__animation {
+  from {
+    transform: translateY(200px);
+  }
+  to {
+    transform: none;
+  }
+}
+
 .nav-bar {
   background-color: #f9f9fa;
   padding: 20px 50px;
@@ -8,6 +17,8 @@
   width: 100%;
 
   position: fixed;
+
+  animation: nav-bar__btn__animation 2s ease-in-out forwards;
 }
 
 .nav-bar__list {
@@ -18,28 +29,30 @@
 .nav-bar__btn {
   display: flex;
   justify-content: center;
-}
 
-.nav-bar__a {
+  position: relative;
   color: #2e363e;
 }
 
+@keyframes notification {
+  0% {
+    transform: none;
+  }
+  50% {
+    transform: translateY(-7px) rotateY(360deg);
+  }
+  100% {
+    transform: none;
+  }
+}
 .nav-bar__chat__notification {
   position: absolute;
-  transform: translate(17px, -12px);
+  top: -7px;
+  right: -10px;
+  animation: notification 3s ease-in-out infinite;
 }
 
 .nav-bar__etc__notification {
-  width: 5px;
-  height: 5px;
-  background-color: tomato;
-  border-radius: 50%;
-  text-align: center;
-
-  display: flex;
-  justify-content: center;
-  align-items: center;
-
   position: absolute;
-  transform: translate(28px, -2px);
+  right: -10px;
 }
